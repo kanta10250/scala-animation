@@ -1,0 +1,12 @@
+# sbt build output, including assembly JARs and nested project builds
+target/
+/project/project/
+
+# Scala language server and build server caches
+.metals/
+.bsp/
+.bloop/
+.scala-build/
+
+# macOS metadata
+.DS_Store
